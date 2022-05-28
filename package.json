@@ -1,0 +1,23 @@
+{
+  "name": "magic-cube",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter list"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sogrey/MagicCube.git"
+  },
+  "author": "Sogrey",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sogrey/MagicCube/issues"
+  },
+  "homepage": "https://github.com/Sogrey/MagicCube#readme",
+  "devDependencies": {
+    "mocha": "^10.0.0",
+    "three": "^0.141.0"
+  }
+}
