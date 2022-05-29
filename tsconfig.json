@@ -1,0 +1,43 @@
+{
+    "compilerOptions": {
+        "useDefineForClassFields": true,
+        "moduleResolution": "node",
+        "strict": true,
+        "jsx": "preserve",
+        "resolveJsonModule": true,
+        "esModuleInterop": true,
+        "lib": [
+            "esnext",
+            "dom"
+        ],
+        "strictNullChecks": true,
+        "noImplicitAny": true,
+        "module": "CommonJS",
+        "target": "ES5",
+        "allowJs": true,
+        "experimentalDecorators": true,
+        "noImplicitThis": true,
+        "noImplicitReturns": true,
+        "alwaysStrict": true,
+        "noFallthroughCasesInSwitch": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "removeComments": true,
+        "pretty": true,
+        "strictPropertyInitialization": true,
+        "typeRoots": [
+            "typings"
+        ]
+    },
+    "include": [
+        "src/**/*.ts",
+        "src/**/*.d.ts",
+        "src/**/*.tsx",
+        "src/**/*.vue"
+    ],
+    "references": [
+        {
+            "path": "./tsconfig.node.json"
+        }
+    ]
+}
