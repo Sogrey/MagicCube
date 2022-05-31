@@ -7,9 +7,11 @@ const path = require('path')
 export default defineConfig({
   base: '/',
   plugins: [vue()],
-  alias: {
-    // 键必须以斜线开始和结束
-    '/@/': path.resolve(__dirname, './src'),
+  resolve: {
+    alias: {
+      // 键必须以斜线开始和结束
+      '/@/': path.resolve(__dirname, './src'),
+    },
   },
   // 打包配置
   build: {
