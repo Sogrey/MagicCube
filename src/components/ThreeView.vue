@@ -16,6 +16,9 @@ export default {
     this.initThree()
   },
   methods: {
+    init(){
+      // TODO
+    },
     initThree() {
       let scene, renderer, camera, stats;
       let model, skeleton, mixer, clock;
